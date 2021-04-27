@@ -1,0 +1,27 @@
+<Demo>:
+    name : name
+    age : age
+    cons: 1
+    rows: 5
+
+    Label:
+        text: "Enter your name"
+        font_size: 50
+
+    TextInput:
+        id : name
+        text: ""
+        font_size:50
+
+    Label:
+        text: "Enter your age"
+        font_size: 50
+
+    TextInput:
+        id : age
+        text: ""
+        font_size:50
+
+    Button:
+        text: "Submit"
+        on_press : root.on_click()  

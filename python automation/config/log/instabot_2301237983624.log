@@ -1,0 +1,19 @@
+2020-12-23 13:24:49,368 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-12-23 13:24:49,368 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\AadesH\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\site-packages\instabot\bot\bot.py
+2020-12-23 13:24:49,369 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-12-23 13:24:49,369 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-12-23 13:24:49,369 - instabot version: 0.117.0 (api_login) - INFO - Recovery from D:\Aadesh Lokhande\1 Study Material\Python Project\PycharmProjects\python automation/config/asian_girls_villa_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=ae3953d8-b1f1-419e-a259-fa4718f2c79a
+- uuid=82e3da90-d9c7-4d67-be81-1b3d88433d4d
+- client_session_id=6d835b5d-56a7-4073-8d20-5c8b17812939
+- device_id=android-f4434fbde241b62d
+2020-12-23 13:24:49,379 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-12-23 13:24:52,164 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-12-23 13:24:53,668 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-12-23 13:24:53,676 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'asian_girls_villa'!
+2020-12-23 13:24:53,677 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: D:\Aadesh Lokhande\1 Study Material\Python Project\PycharmProjects\python automation/config/asian_girls_villa.checkpoint
+2020-12-23 13:24:59,904 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [400]>
+2020-12-23 13:24:59,904 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '1.jpg' is not uploaded.
+2020-12-23 13:24:59,905 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: D:\Aadesh Lokhande\1 Study Material\Python Project\PycharmProjects\python automation/config/asian_girls_villa.checkpoint
+2020-12-23 13:24:59,906 - instabot version: 0.117.0 (bot) - INFO - Total requests: 31

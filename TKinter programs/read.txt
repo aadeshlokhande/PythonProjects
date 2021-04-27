@@ -1,0 +1,6 @@
+Name = aadesh
+Phone = 7777777`
+Education = sfia
+Gender = ljna
+Ready = Yes
+-x-x-x-x-x-x-x-x-x-

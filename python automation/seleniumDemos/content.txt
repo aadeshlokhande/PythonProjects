@@ -1,0 +1,55 @@
+vdo link:- https://www.youtube.com/watch?v=o3tYiyE_OXE
+========================================================
+
+Topics
+-------------
+00:00:20​    Install Python
+00:01:39​    Install Selenium
+00:04:30​    Install Pycharm and configure Selenium
+00:08:25​    Selenium WebDriver download (Chrome, Firefox, and IE)
+-----------------------------
+00:11:52    -​    Start project 
+00:20:00    -​    WebDriver Basic Commands  (Title, URL)  
+00:27:44    -​    Navigation Commands 
+00:36:52    -​    Conditional Commands (is_selected,is_enabled,is_displayed)
+00:50:54    -​    Wait Commands - Implicit  
+01:01:08    -​    Wait Commands - Explicit
+01:32:44    -   ​ Input Boxes 
+01:45:46    -   ​ Radio Buttons & Check Boxes
+01:53:51    -   ​ Dropdown
+02:06:40    -   ​ Links
+02:17:20    -   ​ Alerts (switch_to_alert().accept()/.dismiss())
+02:23:22    -   ​ Frames (switch_to.frame(name)/.frame(id))
+02:35:30    -   ​ Browser Windows (tabs)
+02:48:30    -   ​ Web Tables
+03:07:07    -   ​ Scrolling (by pixel, end of the page, to-XPATH)
+03:18:00    -   ​ Mouse Actions - Mouse Hover
+03:26:55    -   ​ Mouse Actions - Double Click
+03:32:53    -   ​ Mouse Actions - Right Click
+03:37:49    -   ​ Mouse Actions - Drag and Drop
+03:44:51    -   ​ Upload Files
+03:51:17    -   ​ Download Files (Chrome)
+04:01:05    -   ​ Download Files - Change Path (Chrome)
+04:09:33    -   ​ Download Files (FireFox)
+04:16:00    -   ​ Download Files - Change Path (Firefox)
+04:20:55    -   ​ Data-Driven Testing - Excel
+04:22:50    -   ​ Install OpenPyxl Module
+04:25:30    -   ​ Excel Operations - Reading Data From Excel File
+04:36:00    -   ​ Excel Operations - Writing Data Into Excel File
+04:43:05    -   ​ Excel Operations - Data Driven Test Case From Excel File
+05:07:00    -   ​ Handling Cookies (Count, Add, Delete)
+05:23:29    -   ​ Capture Screenshots
+05:30:03    -   ​ Logging
+05:45:30    -   ​ UnitTest Framework
+05:57:39    -   ​ UnitTest Framework - Keywords (Setup, tearDown)
+06:15:08    -   ​ UnitTest Framework - Skipping Tests
+06:29:00    -   ​ UnitTest Framework - Assertion (assertEqual, assertNotEqual)
+06:39:15    -   ​ UnitTest Framework - Assertion (assertTrue, assertFalse)
+06:48:49    -   ​ UnitTest Framework - Assertion (assertIsNone, assertIsNotNone)
+06:56:50    -   ​ UnitTest Framework - Assertion (assertIn, assertIsNotIn)
+07:04:45    -   ​ UnitTest Framework - Assertion (assertGreater,assertLess)
+07:11:30    -   ​ Create/Execute Test Cases and Test Suites
+07:41:14    -   ​ Install PyTest 
+07:49:48    -   ​ PyTest - Fixtures (pytest.fixture(), pytest.yield_fixture())
+08:04:26    -   ​ PyTest - Multiple Ways to Run Test Cases
+Visit our blogs for more Tutorials & Online training

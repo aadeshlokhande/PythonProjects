@@ -1,0 +1,543 @@
+Receipt Ref : BILL - 11840437		 16/02/2021
+Customer Name	:	SDFS
+Items				Cost of Items
+Chicken Lollipop			360.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				55.8 Rs
+Service Charge				12 Rs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				397.8
+
+
+
+Receipt Ref : BILL - 69376941		 16/02/2021
+Customer Name	:	ROTO
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				120.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				19.8 Rs
+Service Charge				12 Rs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				131.8
+
+
+
+Receipt Ref : BILL - 95639096		 16/02/2021
+Customer Name	:	ROBOT
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				120.0
+Chicken Burger				0.0
+Chicken Roll				2520.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				397.8 Rs
+Service Charge				12 Rs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				2949.8
+
+
+
+Receipt Ref : BILL - 87311350		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				120.0
+Chicken Burger				0.0
+Chicken Roll				360.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				73.8 Rs
+Service Charge				12 Rs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				553.8
+
+
+
+Receipt Ref : BILL - 76763586		 16/02/2021
+Customer Name	:	XDF
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				120.0
+Chicken Burger				0.0
+Chicken Roll				360.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				73.8 Rs
+Service Charge				12 Rs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				553.8
+
+
+
+Receipt Ref : BILL - 50759222		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			120.0
+Chicken Hotdog				440.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				102.96 Rs
+Service Charge				12 Rs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				673.96
+
+
+
+Receipt Ref : BILL - 75685446		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 35649746		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 24381583		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 80873040		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 91388471		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 24783405		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 18918034		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 48660058		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 63602152		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 89479224		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 72865337		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 40857303		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 19232585		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 79368728		 16/02/2021
+Customer Name	:	
+Items				Cost of Items
+Chicken Lollipop			0.0
+Chicken Hotdog				0.0
+Chicken Burger				0.0
+Chicken Roll				0.0
+Chicken 65					0.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					0.0
+Veg Manchurian				0.0
+Veg Crispy					0.0
+Veg Noodles					0.0
+Veg Samosa					0.0
+Paid Tax				
+Service Charge				
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				
+
+
+
+Receipt Ref : BILL - 46607385		 19/02/2021
+Customer Name	:	AMISHA
+Items				Cost of Items
+Chicken Lollipop			120.0
+Chicken Hotdog				80.0
+Chicken Burger				120.0
+Chicken Roll				135.0
+Chicken 65					240.0
+Chicken Crispy				0.0
+Chicken Chilli				0.0
+Chicken Samosa				0.0
+Veg Puff					0.0
+Veg Hotdog					0.0
+Veg Burger					0.0
+Veg Roll					70.0
+Veg Manchurian				60.0
+Veg Crispy					0.0
+Veg Noodles					240.0
+Veg Samosa					0.0
+Paid Tax				161.54999999999998 Rs
+Service Charge				12 Rs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total Cost				1108.55

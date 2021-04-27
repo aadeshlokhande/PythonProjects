@@ -1,0 +1,170 @@
+A) Stock market Complete course
+
+1. Stock market for Beginners
+2. Future & Options (Derivatives)
+3. Technical Analysis
+4. Fundamental Analysis
+5. Investment & Earning Strategy
+
+==========================================================
+
+B) what is Stock market & its Functions
+
+    1) stock market :  hum market isliye jate hai ki ham kuch purchase krs sake same isi trh stock market me hum isliye jate hai taki hum stocks kharid sake but abhi humme kahi jane ki jarurat nhi hai q ki jo bhi process hota hai woonline hota hai
+
+    2) what is stock?
+    ans:- bunch of shares is called stocks.
+
+    3)the main purpose of stock main is - it helps you in facilitate you transactions. agar aap buyer hai to apko seller find krke dene me help krta hai and agar aap sellser hai to apko buyer find krke dene me help krta hai
+
+    4) koi stock sell raha hai tbhi aap stock buy kr pa rahe ho and agar aap sell kr rahe mtlb koi usse buy kna chahta hai... is trh stocks market me exchange hote rahte hai.
+    mainly hamare pass 2 stock exchange hai.
+        a) NSE 
+        b) BSE 
+    
+    5) hum log shares q buy krte hai?
+    ans:- kisi bhi company ke shares kharidne ke 2 tarike hai. 
+        a) primary market - IPO (Initial Public Offering) - direct company se share kharid sakte jb company share nikalti hai 
+        b) secondary market - stock exchange - stock market se kharid sakte hai jo bhi log sell krna chahte hai unse
+
+    6) aap direct echange ke site pe jake shares nhi kharid sakte. stock exchange ne kahi certified member banake rakhe hai jinse hum shares buy kr sakte hai. un members ko Brokers (Depository Participant) kahte hai. 
+
+============================================================
+
+C) What is index? what is nifty and sensex in indian stock market? Role of nifty & sensex.
+
+    1) what is index?
+    :- in Nifty , it represents the weighted average of 50 indian company stocks in 12 sectors
+        - Energy
+        - Materials
+        - industrial
+        - Consumer Discretionary
+        - Telecommunication Services
+        - Utilities
+        - Real Estate
+    
+    2) in stock market Index tells us about market view & market Direction
+    
+    3) There are 2 type of index.
+        a) sensex (sensetive index)
+            - Full form of sensex is sensetive index
+            - It represents the weighted average of 30 indian company's stock in defferent sectors
+            - It is one of the two main stock indices used in india
+            - Base Value - 100
+
+        b) nifty  (National fifty)
+            - Full form of nifty is National fifty
+            - It represents the weighted average of 50 indian company's stock in 12 defferent sectors
+            - It is one of the two main stock indices used in india
+            - Base Value - 1000
+        
+============================================================
+
+D) how to know size of the company in stock market? what is market capitalization?
+    1) kaise decide kre konsi company ka market capitalization kitna hai?
+    market capitalization is shows the size of the compony.
+    for example: 
+        TATA Cunsaltancy Services = 2049 share price
+        MRF = 54045 share price
+        which compony is big......???
+        hum yahi sochte hai ki jiska share price jada woh company badi honi chahiye but aisa nhi hai....
+
+    2) market capitalization formula :
+        market capitalization = share price X total number of share
+        Example : 
+            supose we have compony : ABC
+            total number of share = 100 Cr 
+            price of share = 50 Rs 
+
+            market capitalization = share price X total number of share
+            ABC market capitalization = 50 X 100 Cr
+            ABC market capitalization = 5,000 Cr Rs
+
+            AND 
+
+            compony name =  XYZ
+            total number of share = 1000 Cr
+            price of share = 30 Rs 
+
+            market capitalization = share price X total number of share
+            XYZ market capitalization = 30 X 1000 Cr
+            XYZ market capitalization = 30,000 Cr Rs
+
+            so which compony size is big ABC or XYZ... Obviously XYZ is a bigger than ABC
+    
+    3) Lets jump to point number 1.
+
+        TATA Cunsaltancy Services = 375 Cr total share
+        market capitalization = share price X total number of share
+        TATA Cunsaltancy Services market capitalization = 2094 X 375 Cr
+        TATA Cunsaltancy Services market capitalization = 7,98,281.25 Cr Rs
+
+        MRF = 42,40,000 total share
+        market capitalization = share price X total number of share
+        MRF market capitalization = 54045 X 4240000
+        MRF market capitalization = 22,502 Cr rs 
+
+        it means TATA Cunsaltancy Services is bigger than MRF
+
+======================================================================
+
+E)  Important basics stock market trading terms.
+    1) In This Video we will see...
+        :- Bull Market (Bullish)
+        :- Bear Markst (Bearish)
+        :- What is trend?
+        :- Square Off 
+        :- Intraday Position
+        :- Volume and trade
+        :- Long Position or Long
+        :- Short Position or Short
+        :- 52 Weeks high low
+        :- All time high 
+        :- OHLC
+    
+    2) Bull Market:
+        jabhi market upar jata hai. hum usse bull market kahte hai. jaruri nhi hai ki wo continuos upar hi jaye. kuch fluctuation me wo niche bhi aa sakta hai use hum "correct" kahte hai. market correct ho raha hai. but over all graph upar hi jata usse hum bull market ya bullish market kahte hai.
+
+    3) Bear Market:
+        Jabhi market niche jata hai. hum usse bear market kahte hai. jaruri nhi hai ki wo continuos niche hi jaye. kuch fluctuation me wo upar bhi ja sakta hai use hum "correct" kahte hai. market correct ho raha hai. but over all graph niche hi jata usse hum bear market ya bearish market kahte hai.       
+    
+    4) what is trend?
+        trend market ka direction dikhata hai. Agar hum chart ko overall dekhe to agar wo market upar ja raha hai to hum usse up trend kahte hai and jo market niche ja raha hai usse hum down trend market kahte hai. ek bull ya bear market me up trend bhi ho sakta hai aur down trend bhi ho sakta hai.
+    
+    5) Volume and Trade:
+        Trade:
+            jab buyer aur seller me ek transaction hota hai stock exchange ke throught to use trade kahte hai.
+        Volume:
+            jab seller kuch share/stocks seller ko sell krta hai us amount ko Volume kahte hai.
+            jaise ki agar seller ne 500Rs ke share buyer ko sell kiye and buyer ne wo 500Rs ke share seller se le liye thod unke bin 500Rs ka transaction hua ussi hone wale transaction amount ko Volume kahte hai jo ki hai 500Rs.
+    
+    6) Intraday Position and square off :
+        Intraday mtlb hum 1 din ki bat kr rahe hai. 9:15AM to 3:30PM is me jo trade hota hai usko hum Intraday kahte hai. ab agar is time me apne kuck stock buy kiya hai matlb wahi apki Intraday ki position hai. aur agar apne is position ko liya hai toh apko 3:30PM se pahle close krna padega. aur ussi closing ko kahte hai square Off.
+
+    7) Long positive / Long:
+        jab hum koi position long time ke liye hold krte hai. usse hum long positive ya Long kahte hai.
+    
+    8) Short position / short:
+        agar koi chij apke pass nhi hai pr apko lagta hai ap kahi se lekar aage sell kr sakte hai usse hum short position ya short kahte hai.
+        example: agar apke koi fd ko 3lack tak car chahiye hai aur wo apko bolta hai ki mere liye ek car dekh rakho. mera itna budget hai and ye ye features isme hona chahiye. ad apke pass aisa koi dealer hai jo kuch din pahle apko bolke gya hai ki mere pass aisi ek car hai aur usse sell krna hai 2.6 lacks me. us samay aap apne fd se advance leke jaban de dete ho and wo advance dealer ko deke car le lete ho. wo car fd ko deto ho aur baki ka cash dealer ko dete ho tob extra money jo earn kroge 40K rs wo apka short position ki income hai.
+        same yahi aa share ke sath bhi kr sakte.. pahle aap sell kr sakte uske bad me aap buuuy kr sakte hai par aap yeh sirf Intraday me hi kr sakte hai.
+        agar apko kisi bhi compony ke bare me navative news milti hai to aap pahle sell kr sakte hai au jab share ka price kam ho jaye toh ap low price wahi shares buy kr sakte hai and apna profit nikal sakte hai.
+
+    9) 52 week high low and all time high:
+        52 weeks means 1 year. hum graph dekh ke yeah pta kr sakte ha ki shares ka high point ka tha and low point kya tha isse hum trade krne me aasani hoti hai. same waise hi all time kaitna high tha and kitna low tha yeah bhi dekh ke humme ek idea aa jata hai ki amrket kaha se kaha tak ja sakta hai. 
+
+    10) OHLC (Open High Low Close):
+        OHLC means 9:15 ko market kitne pe open hua. us din wo kitna high gya. kitna low pe gya. and itne pe close hua. un position ko OHLC se denote kiya jata hai.
+
+=====================================================================================
+
+Ep 10) Real stock trading | Tradinf terminal | Bid & ask price Concept
+    1)  in this vide we will see...
+        :-Trading terminal
+        :-Order Type & Position Type
+        :-Market watch
+        :-Buying & selling shares
+        :-Bid & ask price
+    
+    2) 
+

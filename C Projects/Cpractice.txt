@@ -1,0 +1,110 @@
+A) operators:
+    a) arithmatic operators:
+        1) 2 values users se leke unki addition print kro.
+        2) 2 values users se leke unki substraction print kro.
+        3) 2 values users se leke unki multiplication print kro.
+        4) 2 values users se leke unki division print kro.
+        5) 2 values users se leke unki modulus print kro.
+        6) agar apke pass 6 monkeys hai and bananas koi user de raha hai toh sabhi ko monkeys ko kitne bananas equally milenge and kitne banans bchenge.
+        7) find area of circle.
+        
+
+
+    b) Relational Operators:
+        Q. print true or false:
+        1) a<b
+        2) a>b
+        3) a!=b
+        4) a==b 
+
+    c) Logical Operators
+        Q. print true or false:
+        1) (10<num)&&(num<50)
+        2) (num!=15)||(num<10)
+        3) !(43>55)
+
+B) If Else:
+    1) equal or not
+    2) given number is even or odd.
+    3) given number is positive or negative
+    4) given year is a leap year or not
+    5) read the age of a candidate and determine whether it is eligible for casting his/her own vote
+    6) centimeter and categorize the person according to their height
+    7) Write a C program to check whether a triangle can be formed by the given value for the angles.
+    8) Write a C program to check whether a character is an alphabet, digit or special character.
+    9) Write a C program to check whether an alphabet is a vowel or consonant
+
+C) Nested If-Else
+    1) find the largest of three numbers
+    2) Write a C program to check whether a triangle can be formed by the given value for the angles.
+
+D) If-Else Ladder
+    1) Write a C program to accept a coordinate point in a XY coordinate system and determine in which quadrant the coordinate point lies
+    2) Grades:
+        35 > per = fail
+        50 > per = c grade
+        75 > per = b grade
+        75 < per = a grade
+    3) Write a C program to read roll no, name and marks of three subjects and calculate the total, percentage and division
+    4) Write a C program to read temperature in centigrade and display a suitable message according to temperature state below
+    5) Write a program in C to read any day number in integer and display day name in the word
+    6) Write a program in C to read any digit, display in the word(1 to 9)
+    7) Write a program in C to read any Month Number in integer and display Month name in the word
+    8) ATM Machine
+    9) print total marks of all subjects, percentages and grades 
+
+E) Switch-Case
+    1) Write a C program to print day of week name using switch case.
+    2) Write a C program print total number of days in a month using switch case.
+    3) Write a C program to check whether an alphabet is vowel or consonant using switch case.
+    4) Write a C program to find maximum between two numbers using switch case.
+    5) Write a C program to check whether a number is even or odd using switch case.
+    6) Write a C program to check whether a number is positive, negative or zero using switch case.
+    7) Write a C program to create Simple Calculator using switch case.
+    8) ATM Machine
+    9) even odd, max, min
+    
+F) For Loop
+    1) Write a program in C to display the first 10 natural numbers
+    2) Write a C program to find the sum of first 10 natural numbers.
+    3) Write a program in C to read 10 numbers from keyboard and find their sum and average.
+    4) Write a program in C to display the multiplication table of a given integer
+    5) Write a program in C to display the n terms of odd natural number and their sum 
+    6) Write a program in C to display A to Z.
+    7) write a program to print table of 9 without using + - / * operators.
+
+G) Nested For Loop
+    1) Write a program in C to make such a pattern like right angle triangle with number increased by 1.
+    The pattern like :
+        1
+        2 3
+        4 5 6
+        7 8 9 10
+
+    2) Write a program in C to display the pattern like right angle triangle using an asterisk.
+    The pattern like :
+
+        *
+        **
+        ***
+        ****
+    
+    3) Write a program in C to display the pattern like right angle triangle with a number. 
+    The pattern like :
+
+        1
+        12
+        123
+        1234
+    
+    4) Write a program in C to make such a pattern like right angle triangle with a number which will repeat a number in a row.
+    The pattern like :
+
+        1
+        22
+        333
+        4444
+
+    5) print a table from 1 to 10.
+
+H) While Loop
