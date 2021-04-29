@@ -10,7 +10,7 @@ while True:
         pg.click(x,y,interval=1)
         pg.click(int(a),int(b))
         pg.moveTo(x,y)
-        time.sleep(15)
+        time.sleep(25)
         print("follow : ",i)
         i+=1
     except:
