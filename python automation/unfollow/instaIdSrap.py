@@ -10,17 +10,17 @@ import instaloader
 insta = instaloader.Instaloader()
 
 # Login or load session
-insta.login("asian_girls_villa", "Asian786")        # (login)
+insta.login("tiptopproperty.in", "poplolpop007")        # (login)
 #L.load_session_from_file(myaccount)
 
 
 # Obtain profile metadata
-profile = instaloader.Profile.from_username(insta.context, "i_know_python")
+profile = instaloader.Profile.from_username(insta.context, "cardesignworld")
 
 # Print list of followers
 
 
-file = open(f"DataFollowers.txt","a+")
+file = open(f"Cars.txt","a+")
 for follower in profile.get_followers():
     user = follower.username
     # name = follower.full_name
