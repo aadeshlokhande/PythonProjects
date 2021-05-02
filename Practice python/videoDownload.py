@@ -1,5 +1,6 @@
 # pip install pytube
 from pytube import YouTube
+# Author = TECH_IN_SECONDS
 
 link = input("Paste URL = ")
 vdos = YouTube(link).streams.all()
