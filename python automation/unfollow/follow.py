@@ -1,7 +1,11 @@
 import pyautogui as pg
 import time
-x=357
-y=446
+
+# time.sleep(3)
+# print(pg.position())
+# exit()
+x=450
+y=410
 i = 1
 
 while True:    
@@ -10,11 +14,15 @@ while True:
         pg.click(x,y,interval=1)
         pg.click(int(a),int(b))
         pg.moveTo(x,y)
-        time.sleep(25)
         print("follow : ",i)
+        time.sleep(45)
         i+=1
     except:
         pg.moveTo(x,y,1)
         pg.scroll(-4)
         time.sleep(1)
         print("Scroll...")
+
+# # Printing a String
+# print("TECH_IN_SECONDS")
+# # OUTPUT : TECH_IN_SECONDS
