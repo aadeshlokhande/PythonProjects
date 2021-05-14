@@ -37,11 +37,12 @@
 //     console.log(city)
 // }
 
-var city = "Delhi";
-{
-    let city = "Nagpur";
-    console.log(city)
-    city = "Mumbai";
-    console.log(city)
-}
-console.log(city)
+// var city = "Delhi";
+// {
+//     let city = "Nagpur";
+//     console.log(city)
+//     city = "Mumbai";
+//     console.log(city)
+// }
+// console.log(city)
+
