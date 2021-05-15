@@ -1,3 +1,5 @@
+// console log
+
 console.log("jethalal");
 console.log(1209);
 console.log(12+20);
@@ -12,3 +14,11 @@ console.warn("This is warning");
 console.assert(12<9,"you are wrong");
 console.error("this is error");
 // yeh ek commment hai
+
+/*
+ye
+ek
+multiline
+comment
+hai
+*/
