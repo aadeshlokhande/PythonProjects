@@ -1286,7 +1286,7 @@ textreceipt = Text(receipt_frame, font=(
     'arial', 12, 'bold'), bd=4, width=46, height=14)
 textreceipt.grid(row=0, column=0)
 
-######################################## Functionality Of Calculater ######################################################################
+######################## Functionality Of Calculater #############################
 
 operator = ""
 
@@ -1309,10 +1309,10 @@ def btnAns():
         textDisplay.delete(0, END)
         textDisplay.insert(0, sumup)
         operator = str(sumup)
-    except:
+    except
         pass
 
-####################################################### GUI for  Calculater ####################################################################
+###################### GUI for  Calculater #############################
 
 textDisplay = Entry(calculator_frame, font=(
     'arial', 16, 'bold'), width=35, bg='white', justify=RIGHT, bd=4)
@@ -1384,9 +1384,3 @@ buttondiv = Button(calculator_frame, text='/', fg='yellow', bg=theme, bd=7, padx
 buttondiv.grid(row=4, column=3)
 
 root.mainloop()
-
-
-# ADD FUNCTION
-# print
-# discount
-# GST

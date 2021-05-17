@@ -4,7 +4,7 @@ jisme hum bat krenge ki hum is channel pe kis type ka content sabhi logo tak poh
 
 aajse hum ek youtube channel open kr rahe hai.
 jisme hum programming languages sikhange. wo bhi begginner level se
-advance level tak. hum yaha C, C++, python jaise languages sikhange
+advance level tak. hum yaha C, C++, python, Javascript jaise languages sikhange
 
 and 
 

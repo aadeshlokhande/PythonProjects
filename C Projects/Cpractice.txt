@@ -8,8 +8,6 @@ A) operators:
         6) agar apke pass 6 monkeys hai and bananas koi user de raha hai toh sabhi ko monkeys ko kitne bananas equally milenge and kitne banans bchenge.
         7) find area of circle.
         
-
-
     b) Relational Operators:
         Q. print true or false:
         1) a<b

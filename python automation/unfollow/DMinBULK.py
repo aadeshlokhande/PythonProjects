@@ -27,9 +27,9 @@ msg = f"Hey guys...\nDo You want Learn python?\nIf yes then follow : @tech_in_se
 pg.click(x=502, y=138,interval=3)      # inbox
 
 while True:
-    for j in range(5):
+    for j in range(10):
         pg.click(x=268, y=200,interval=1)  # new msg
-        pg.typewrite("tec_in_seconds",0.06)
+        pg.typewrite("tech_in_seconds",0.06)
         time.sleep(2)
         gola()
 

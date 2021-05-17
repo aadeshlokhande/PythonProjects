@@ -4,13 +4,13 @@ import tkinter.messagebox as mb
 import time
 
 root = Tk()
-root.title("Restaurant Management Systems by aakar clg")
+root.title("Hotel Billing Systems by aakar clg")
 root.configure(bg="Cadet blue")
 
 # buttons Functions
 
 def iExit():
-    iExit = mb.askyesno("Exit Restaurant System",
+    iExit = mb.askyesno("Exit Hotel Billing System",
                         "Confirm If You Want To Exit")
     if iExit == 1:
         root.destroy()
@@ -395,7 +395,7 @@ def ckVeg_samosa():
 
 # Top frame START
 Tops = Frame(root, bg="Cadet blue", bd=20, pady=2, relief=RIDGE)
-lblTitle = Label(Tops, font="arial 50 bold", text="Restaurant Management Systems",
+lblTitle = Label(Tops, font="arial 50 bold", text="Hotel Billing Systems",
                  bd=10, bg="Cadet blue", fg="Cornsilk", justify=CENTER)
 lblTitle.grid(row=0, column=0)
 lblname = Label(Tops, font="arial 15 bold",
