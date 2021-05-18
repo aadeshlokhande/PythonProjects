@@ -4,12 +4,12 @@ import random
 import time
 from tkinter import filedialog
 import requests
-# import sys
 
 theme = "cadet blue"
-####################################################################### Functoins #########################################################
+###### Functoins ########
 
-######################################################### Functions of Bottom Buttons ####################################################
+######## Functions of Bottom Buttons ##########
+
 
 def Receipt():
     global PriceOfFood, PriceOfCakes, PriceOfDrinks, receiptref, dateoforder
@@ -180,224 +180,12 @@ def Save():
 
     if textreceipt.get(1.0, END) != '\n':
 
-        filename = filedialog.asksaveasfile(mode='w', defaultextension='.txt', filetype=(
-            ('Text File', '.txt'), ('All files', '*.*')))
-
-        if filename == None:
-            return
-
+        file = open("billsData.txt",'w')
         bill_data = textreceipt.get(1.0, END)
-
-        filename.write(bill_data)
-
-        filename.close()
-
+        file.write(bill_data.replace("*","_"))
+        file.close()
         messagebox.showinfo('Information', "Your Bill is Saved Successfully")
 
-def Send():
-
-    global receiptref, dateoforder, PriceOfCakes, PriceOfDrinks, PriceOfFood,  total, root2
-
-
-    if textreceipt.get(1.0, END) == '\n':
-        pass
-
-    else:
-
-        def send_sms(number, messege):
-            url = 'http://www.fast2sms.com/dev/bulk'
-
-            params = {
-                # 'authorization': '8qPZDCib8tNykuyj7KdJUz3clfBNNgkNKQeAp7yEZnV0GLGFmNwJFcWtmGki',
-                # 'authorization': 'S0O7DxGcWtFKrwJvPHYo9na42N6QmLA1BXbTuRkdVyqg3U5EzCqNx3jh6MvFign70oGIQRZzVEByDCTA',
-                'messege': messege,
-                'numbers': number,
-                'sender_id': 'FSTSMS',
-                'route': 'p',
-                'language': 'english'
-            }
-
-            responce = requests.get(url, params=params)
-            dic = responce.json()
-            return dic.get('return')
-
-        def btn_Click():
-            num = textNumber.get()
-            msg = textmessege.get(1.0, END)
-            r = send_sms(num, msg)
-
-            if r == True:
-                messagebox.showinfo('Send Successful',
-                                    'Messege Successfully Send!')
-
-            else:
-                messagebox.showerror('Error', 'Something went Wrong!!')
-
-        root2 = Toplevel()
-
-        root2.title("Send Bill")
-
-        root2.config(bg=theme)
-
-        root2.geometry('485x590+50+50')
-
-        logopic = PhotoImage(file='sender.png')
-        label = Label(root2, image=logopic, bg=theme, )
-        label.pack(pady=5)
-
-        numberlabel = Label(root2, text='Mobile Number', font=(
-            'arial', 18, 'bold underline'), bg=theme, fg='white')
-        numberlabel.place(x=5, y=150)
-
-        textNumber = Entry(root2, font=(
-            'helvetica', 22, 'bold'), bd=5, width=25)
-        textNumber.place(x=5, y=190)
-
-        messegelabel = Label(root2, text='Bill Details', font=(
-            'arial', 18, 'bold underline'), bg=theme, fg='white')
-        messegelabel.place(x=5, y=250)
-
-        textmessege = Text(root2, font=(
-            'times new roaman', 14, 'bold'), bd=8, relief=GROOVE, width=42, height=9)
-        textmessege.place(x=3, y=285)
-
-        textmessege.insert(END, 'Receipt Ref :\t\t' +
-                           receiptref+'\t\t'+dateoforder+'\n')
-        #textmessege.insert(END , '----------------------------------------------------------------------------\n')
-        textmessege.insert(END, 'Items:\t\t'+"  Cost Of Items(In Rs)\n")
-
-        if e_roti.get() != '0':
-            textmessege.insert(END, f'Roti:\t\t\t{ int(e_roti.get()) * 10 }\n')
-
-        if e_daal.get() != '0':
-            textmessege.insert(END, f'Daal:\t\t\t{  int(e_daal.get()) * 80}\n')
-
-        if e_kolhapuri.get() != '0':
-            textmessege.insert(
-                END, f'Kolhapuri:\t\t\t{ int(e_kolhapuri.get()) * 120 }\n')
-
-        if e_sabji.get() != '0':
-            textmessege.insert(
-                END, f'sabji:\t\t\t{  int(e_sabji.get()) * 90}\n')
-
-        if e_masoor.get() != '0':
-            textmessege.insert(
-                END, f'Masoor:\t\t\t{ int(e_masoor.get()) * 140 }\n')
-
-        if e_kaju.get() != '0':
-            textmessege.insert(
-                END, f'Kaju:\t\t\t{  int(e_kaju.get()) * 160}\n')
-
-        if e_paneer.get() != '0':
-            textmessege.insert(
-                END, f'Paneer:\t\t\t{ int(e_paneer.get()) * 150 }\n')
-
-        if e_mixveg.get() != '0':
-            textmessege.insert(
-                END, f'Mix-Veg:\t\t\t{  int(e_mixveg.get()) * 140}\n')
-
-        if e_chawal.get() != '0':
-            textmessege.insert(
-                END, f'Chawal:\t\t\t{ int(e_chawal.get()) * 60 }\n')
-
-        if e_lassi.get() != '0':
-            textmessege.insert(
-                END, f'Lassi:\t\t\t{  int(e_lassi.get()) * 20}\n')
-
-        if e_coffee.get() != '0':
-            textmessege.insert(
-                END, f'Coffee:\t\t\t{ int(e_coffee.get()) * 15 }\n')
-
-        if e_faluda.get() != '0':
-            textmessege.insert(
-                END, f'Faluda:\t\t\t{  int(e_faluda.get()) * 25}\n')
-
-        if e_juice.get() != '0':
-            textmessege.insert(
-                END, f'Juice:\t\t\t{ int(e_juice.get()) * 20 }\n')
-
-        if e_jaljira.get() != '0':
-            textmessege.insert(
-                END, f'Jaljira:\t\t\t{  int(e_jaljira.get()) * 12}\n')
-
-        if e_tea.get() != '0':
-            textmessege.insert(END, f'Tea:\t\t\t{ int(e_tea.get()) * 10 }\n')
-
-        if e_badammilk.get() != '0':
-            textmessege.insert(
-                END, f'Badam Milk:\t\t\t{  int(e_badammilk.get()) * 25}\n')
-
-        if e_coldrinks.get() != '0':
-            textmessege.insert(
-                END, f'Cold Drinks:\t\t\t{  int(e_coldrinks.get()) * 20}\n')
-
-        if e_sarbat.get() != '0':
-            textmessege.insert(
-                END, f'Sarbat:\t\t\t{ int(e_sarbat.get()) * 15 }\n')
-
-        if e_butterscotch.get() != '0':
-            textmessege.insert(
-                END, f'ButterScotch Cake:\t\t\t{  int(e_butterscotch.get()) * 450}\n')
-
-        if e_apple.get() != '0':
-            textmessege.insert(
-                END, f'Apple Cake:\t\t\t{ int(e_apple.get()) * 500 }\n')
-
-        if e_vanilla.get() != '0':
-            textmessege.insert(
-                END, f'Vanila Cake:\t\t\t{  int(e_vanilla.get()) * 600}\n')
-
-        if e_blackforest.get() != '0':
-            textmessege.insert(
-                END, f'Black Forest Cake:\t\t\t{  int(e_blackforest.get()) * 650}\n')
-
-        if e_banana.get() != '0':
-            textmessege.insert(
-                END, f'Banana Cake:\t\t\t{ int(e_banana.get()) * 500}\n')
-
-        if e_brownie.get() != '0':
-            textmessege.insert(
-                END, f'Brownie Cake:\t\t\t{  int(e_brownie.get()) * 650}\n')
-
-        if e_pineapple.get() != '0':
-            textmessege.insert(
-                END, f'PineApple Cake:\t\t\t{ int(e_pineapple.get()) * 600 }\n')
-
-        if e_chocolate.get() != '0':
-            textmessege.insert(
-                END, f'Chocolate Cake:\t\t\t{  int(e_chocolate.get()) * 700}\n')
-
-        if e_oreo.get() != '0':
-            textmessege.insert(
-                END, f'Oreao Cake:\t\t\t{  int(e_oreo.get()) * 845}\n')
-
-        #textmessege.insert(END , '----------------------------------------------------------------------------\n')
-
-        if PriceOfFood != 0:
-            textmessege.insert(END, f"Cost Of Food:\t\t\t{PriceOfFood} Rs\n\n")
-        if PriceOfDrinks != 0:
-            textmessege.insert(
-                END, f"Cost Of Drinks:\t\t\t{PriceOfDrinks} Rs\n\n")
-        if PriceOfCakes != 0:
-            textmessege.insert(
-                END, f"Cost Of Cakes:\t\t\t{PriceOfCakes} Rs\n\n")
-
-        #textmessege.insert(END , '----------------------------------------------------------------------------\n')
-
-        textmessege.insert(
-            END, f"Sub Total:\t\t\t{PriceOfCakes+PriceOfDrinks+PriceOfFood} Rs\n")
-        textmessege.insert(END, f"Service Tax:\t\t\t50 Rs\n")
-        textmessege.insert(END, f"Total Bill:\t\t\t{total} Rs\n")
-
-        #textmessege.insert(END , '----------------------------------------------------------------------------\n')
-
-        #textmessege.insert(END,"Thanks For Visit ------->")
-
-        # sendbutton = Button(root2, text='Send', bd=7, relief=GROOVE, bg='white', font=(
-        #     'arial', 19, 'bold'), command=btn_Click)
-        # sendbutton.place(x=180, y=520)
-
-        root2.mainloop()
 
 def Reset():
 
@@ -572,7 +360,7 @@ def CostOfItem():
         else:
             messagebox.showerror("Error", "No Item Selected")
 
-########################################################## Functions of Food Items ########################################################
+######### Functions of Food Items #######
 
 def roti():
     if var1.get() == 1:
@@ -820,7 +608,8 @@ def oreoCake():
         textoreo.config(state=DISABLED)
         e_oreo.set('0')
 
-##################################################### Texture ###############################################################################
+
+########### Texture ################
 root = Tk()
 root.geometry('1350x710+0+0')
 root.resizable(0, 0)
@@ -829,17 +618,17 @@ root.title("Restaurant Management System")
 root.config(background=theme)
 
 
-######################################################### Top Frame #########################################################################
+######## Top Frame ##########
 
 topframe = Frame(root, bd=10, bg=theme, relief=RIDGE)
 topframe.pack(side=TOP)
 
-labeltitle = Label(topframe, text='Restaurant Management System', font=(
+labeltitle = Label(topframe, text='Hotel Billing System', font=(
     'arial', 30, "bold"), fg='yellow', width=54, bg=theme, bd=9)
 labeltitle.grid(row=0, column=0)
 
 
-######################################################## Billing Frame ######################################################################
+####### Billing Frame ##############
 
 receiptcal_frame = Frame(root, bd=15, relief=RIDGE, bg=theme)
 receiptcal_frame.pack(side=RIGHT)
@@ -853,7 +642,7 @@ calculator_frame.pack(side=TOP)
 receipt_frame = Frame(receiptcal_frame, bg=theme, bd=4, relief=RIDGE)
 receipt_frame.pack(side=BOTTOM)
 
-########################################################## Menu Frame #######################################################################
+######### Menu Frame ###############
 
 menu_frame = Frame(root, bg=theme, bd=10, relief=RIDGE)
 menu_frame.pack(side=LEFT)
@@ -873,7 +662,7 @@ cake_frame = LabelFrame(menu_frame, text="CAKE", font=(
     'arial', 19, 'bold'), fg=theme, bg='white', bd=10, relief=RIDGE)
 cake_frame.pack(side=RIGHT)
 
-################################################################ Variables  ##################################################################
+######## Variables  ##########
 
 var1 = IntVar()
 var2 = IntVar()
@@ -973,7 +762,7 @@ costofdrinksvar = StringVar()
 servicechargevar = StringVar()
 
 
-################################################################## FOOD #####################################################################
+########## FOOD #############
 
 roti = Checkbutton(food_frame, text='Roti', variable=var1, onvalue=1,
                    offvalue=0, font=('arial', 18, 'bold'), bg='white', command=roti)
@@ -1012,7 +801,7 @@ chawal = Checkbutton(food_frame, text='Chawal', onvalue=1, offvalue=0, font=(
 chawal.grid(row=8, column=0, sticky=W)
 
 
-##############################################################  FOOD ENTRY  #################################################################
+#############  FOOD ENTRY  #########
 
 
 textroti = Entry(food_frame, font=('arial', 18, 'bold'), bd=8,
@@ -1052,7 +841,7 @@ textchawal = Entry(food_frame, font=('arial', 18, 'bold'),
 textchawal.grid(row=8, column=1)
 
 
-########################################################### DRINKS ##########################################################################
+########## DRINKS ###########
 
 
 lassi = Checkbutton(drinks_frame, text="Lassi", onvalue=1, offvalue=0, font=(
@@ -1092,7 +881,7 @@ sarbat = Checkbutton(drinks_frame, text="Sarbat", onvalue=1, offvalue=0, font=(
 sarbat.grid(row=8, column=0, sticky=W)
 
 
-########################################################## Entry Fields for Drinks ##########################################################
+######### Entry Fields for Drinks #########
 
 
 textlassi = Entry(drinks_frame, font=('arial', 18, 'bold'), width=6,
@@ -1132,7 +921,7 @@ textsarbat = Entry(drinks_frame, font=('arial', 18, 'bold'), width=6,
 textsarbat.grid(row=8, column=1)
 
 
-################################################################# Cakes #####################################################################
+######### Cakes #############
 
 butterscotchCake = Checkbutton(cake_frame, text="ButterScotch", onvalue=1, offvalue=0, font=(
     'arial', 18, 'bold'), bg='white', variable=var19, command=butterscotchCake)
@@ -1171,7 +960,7 @@ oreoCake = Checkbutton(cake_frame, text="Oreo", onvalue=1, offvalue=0, font=(
 oreoCake.grid(row=8, column=0, sticky=W)
 
 
-########################################################## Entry Box For Cakes ##############################################################
+######### Entry Box For Cakes #############
 
 textbuttorscotch = Entry(cake_frame, font=('arial', 18, 'bold'), justify=LEFT,
                          width=6, state=DISABLED, bd=8, textvariable=e_butterscotch)
@@ -1209,7 +998,7 @@ textoreo = Entry(cake_frame, font=('arial', 18, 'bold'), width=6,
                  justify=LEFT, state=DISABLED, bd=8, textvariable=e_oreo)
 textoreo.grid(row=8, column=1)
 
-########################################################## Cost Labels ######################################################################
+######### Cost Labels ##############
 
 labelcostofdrinks = Label(cost_frame, font=('arial', 16, 'bold'),
                           text="Cost Of Drinks\t", bg=theme, fg='cornsilk', justify=CENTER)
@@ -1260,7 +1049,7 @@ texttotalcharge = Entry(cost_frame, font=('arial', 16, 'bold'), bd=7, bg='white'
 texttotalcharge.grid(row=2, column=3)
 
 
-###################################################### Button Frame #########################################################################
+############ Button Frame ##########
 
 
 buttonTotal = Button(button_frame, text='Total', font=('arial', 14, 'bold'),
@@ -1280,13 +1069,12 @@ buttonreset = Button(button_frame, text='Reset', font=('arial', 14, 'bold'),
                      fg='white', bg=theme, padx=16, pady=1, bd=4, width=4, command=Reset)
 buttonreset.grid(row=0, column=4)
 
-######################################################## TEXT  AREA for Receipt #################################################################
+####### TEXT  AREA for Receipt #########
 
-textreceipt = Text(receipt_frame, font=(
-    'arial', 12, 'bold'), bd=4, width=46, height=14)
+textreceipt = Text(receipt_frame, font=('arial', 12, 'bold'), bd=4, width=46, height=14)
 textreceipt.grid(row=0, column=0)
 
-######################## Functionality Of Calculater #############################
+##### Functionality Of Calculater ##############
 
 operator = ""
 
@@ -1309,10 +1097,10 @@ def btnAns():
         textDisplay.delete(0, END)
         textDisplay.insert(0, sumup)
         operator = str(sumup)
-    except
+    except:
         pass
 
-###################### GUI for  Calculater #############################
+############# GUI for  Calculater ############
 
 textDisplay = Entry(calculator_frame, font=(
     'arial', 16, 'bold'), width=35, bg='white', justify=RIGHT, bd=4)

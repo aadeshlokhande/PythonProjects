@@ -1,0 +1,11 @@
+This PROJECT is for "Hotel Billing System". the concept behind this project is give the computerized Hotel billing facility.
+
+"Hotel Billing System"  is needed everywhere in many areas. 
+
+Event Management System is a system that will reduce your work burden along with your budget. 
+
+Best thing is through EMS it becomes very easy to handle all matters of attendee management as well as event marketing. It gives you complete relaxation regarding the event and make you able to think about the growth of your company and other important matters.
+
+This project also gives reports on each types of booking and printing facility.
+
+
