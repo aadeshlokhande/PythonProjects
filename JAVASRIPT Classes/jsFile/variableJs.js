@@ -4,32 +4,46 @@
 // const
 
 // VAR
-var namee = "Jethalal"
-console.log(namee)
+var namee = "Jethalal";
+console.log(namee);
 
 var month;
 month = "may";
 console.log(month)
 
-var fname = 23;
-var lname = "Rangari";
+var fname = "pooja";
+var lname = "Sharma";
 console.log(fname,lname)
-// console.log(fname+lname)
+console.log(fname+lname)
+
 var laptop;
 
 
-// CONST
+// // CONST
 const city = "nagpur";
 console.log(city)
 
+const ccity = "delhi"
+// ccity = "mumbai"
+console.log(ccity)
+
 const age = [23,10,19,"aadesh"]
-age.push("sapna")
+age.push("pooja")
 console.log(age)
 
-// const mobile;
-var mobiles = "Iphone"
+// let
+let mobile = "Iphone"
 {
-    let mobiles = "samsung"
-    console.log(mobiles)
+    let mobile = "samsung"
+    console.log(mobile)
 }
-console.log(mobiles)
+console.log(mobile)
+
+// rules of declaring variable
+// 1. cant start with numbers
+// ex.  12city, 9age,
+// 2. ca start with letters, underscore(_),dollor sign($)
+
+
+// common cases
+// 1 camelCase
