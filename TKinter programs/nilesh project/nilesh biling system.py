@@ -177,7 +177,8 @@ def Receipt():
 def Save():
 
     if textreceipt.get(1.0, END) != '\n':
-        file = open("billsData.txt",'a')
+        dateoforder = time.strftime("%d_%m_%Y-%H_%M_%S")
+        file = open(f"data/{dateoforder}.txt",'a')
         bill_data = textreceipt.get(1.0, END)
         file.write(bill_data.replace("*","_"))
         file.close()
