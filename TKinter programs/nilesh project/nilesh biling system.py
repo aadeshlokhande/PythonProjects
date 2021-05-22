@@ -2,8 +2,6 @@ from tkinter import *
 from tkinter import messagebox
 import random
 import time
-from tkinter import filedialog
-import requests
 
 theme = "cadet blue"
 ###### Functoins ########
@@ -179,8 +177,7 @@ def Receipt():
 def Save():
 
     if textreceipt.get(1.0, END) != '\n':
-
-        file = open("billsData.txt",'w')
+        file = open("billsData.txt",'a')
         bill_data = textreceipt.get(1.0, END)
         file.write(bill_data.replace("*","_"))
         file.close()
